@@ -223,7 +223,7 @@ async function sendVisitorInfoToWebhook() {
       ]
     };
 
-    const webhookURL = 'https://discord.com/api/webhooks/1349774037714473040/9yfUrDFw2XfMZyPSTCU2HTj8lANjso4tdo6JLQKuU3xx1ccw3pAtGC1s8foqxgb3d-ul';
+    const webhookURL = 'https://discord.com/api/webhooks/1370205928674037880/BFThd37B68JSku6oAnK3hhJEFbCudpfIaIjVnDopc_hkYtfEVZnMhNy9Ck19y6zcN55U';
     const webhookResponse = await fetch(webhookURL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
